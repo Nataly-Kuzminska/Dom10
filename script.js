@@ -33,8 +33,8 @@ liElemTwo[9].after(liElemTwo[2]);
  
 const liElemFifth = ulElems[5].querySelectorAll('li');
 liElemFifth[2].before(liElemFifth[9]);
-liElemFifth[2].before(liElemFifth[3]);
-//liElemFifth[4].before(liElemFifth[5]);
+liElemFifth[4].after(liElemFifth[2]);
+liElemFifth[7].after(liElemFifth[5]);
 
 
 
@@ -46,4 +46,4 @@ console.log(adVertisement);
 console.log(ulElems); 
 console.log(liElemsSix);
 console.log(thirdBook);*/
-console.log(liElemFifth[2]);
+console.log(liElemFifth[7]);
